@@ -136,7 +136,7 @@ jobs:
         with:
           context: ./frontend/
           push: true
-          tags: dmvalik/taski_frontend:latest
+          tags: dmsvalik/taski_frontend:latest
   build_gateway_and_push_to_docker_hub:
     name: Push gateway Docker image to DockerHub
     runs-on: ubuntu-latest
